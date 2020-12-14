@@ -1,54 +1,65 @@
 <!DOCTYPE html>
 <html lang="en">
-
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="css/bootstrap.css" rel="stylesheets">
-    <link href="css/styles.css" rel="stylesheets">
-    <title>Akan Name</title>
-</head>
-
-<body>
-    <main-container>
-        <div class="container jumbotron myform">
-            <h1 class="form-head">
-                Enter your birthday and get the akan name
-            </h1>
-            <div class="displayme container">
-                <div class="alert-success alert myalert container id alert1">
-                    <p>
-                        <span id="span1"></span>
-                        <span id="span2"></span>
-                    </p>
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<meta http-equiv="X-UA-Compatible" content="ie=edge" />
+		<link rel="stylesheet" href="css/bootstrap.css">
+		/>
+		<link rel="stylesheet" href="./css/styles.css" />
+		<title>Akan Names</title>
+	</head>
+	<body>
+		<main-container>
+			<div class="container jumbotron myform">
+				<h3 class="form-head">
+					Enter Your Birthday And Get The Akan Name
+                </h3>
+                     <div class="displayme container">
+                    <div class="alert-success alert myalert container" id="alert1">
+                        <p>
+                            <span id="span1"></span>
+                            <span id="span2"></span>
+                        </p>
+                    </div>
                 </div>
-            </div>
-            <div class="container jumbotron myform">
-                <form class="form-group" onsubmit="event.preventDefault()">
-                    <div class="form-group">
-                      <label for="month">Year of Birth</label>
-                      <input id="year" type="text" class="form-control" max=2020 min="1900" max-length="4" size="4" required/>
+                <div class="container">
+                    <div class="alert-danger alert myalert container" id="alert2">
+                        <p>
+                            <span id="span3"></span>
+                        </p>
                     </div>
+                </div>
+                <div class="container jumbotron myform">
+				<form class="form-group" onsubmit="event.preventDefault()">
                     <div class="form-group">
-                      <label for="month">Month of Birth</label>
-                      <input id="year" type="text" class="form-control" max=12 min="1" max-length="2" required/>
-                    </div>
-                     <div class="form-group">
-                        <label for="month">Date of Birth</label>
-                        <input id="year" type="text" class="form-control" max=31 min="1" max-length="2" required/>
-                     </div> 
-                     <div class="btnradio">
-                        <label for="radio" class="radio-inline">
-                        <input type="radio" value="female" name="gender" id="male" required/>Male </label><br />
-                        <label for="radio" class="radio-inline">
-                        <input type="radio" value="female" name="gender" id="female" required/>Female</label>
-                     </div>
-                     <button type="submit" id="submit" class="btn btn-primary" onclick="getAkanName()" value="submit"> Submit</button>
-		             <button type="reset" class="btn btn-danger mybtn"value="reset" onclick="refreshPage()"> Reset</button>
-                </form>
-            </div>
-        </div>
-    </main-container>
-    <script src="js/scripts.js"></script>
-</body>
+						<label for="year">Year of Birth:</label>
+						<input id="year" type="text" class="form-control" max="2020" min="1500" max-length="4" size="4" required/>
+					</div>
+                    
+                    <div class="form-group">
+						<label for="month">Month of birth:</label>
+						<input id="month" type="text" class="form-control" min="1" max="12" max-length="2" required/>
+					</div>
+                    
+                    <div class="form-group">
+						<label for="day">Date of Birth:</label>
+						<input id="day" type="text" class="form-control" min="1" max="31" max-length="2" required/>
+                        
+                        <div class="btnradio">
+							<label for="radio" class="radio-inline">
+								<input type="radio" value="female" name="gender" id="male" required/>Male </label><br />
+							<label for="radio" class="radio-inline">
+								<input type="radio" value="female" name="gender" id="female" required/>Female</label>
+						</div>
+					</div>
+					<button type="submit" id="submit" class="btn btn-primary" onclick="getAkanName()" value="submit"> Submit</button>
+		            <button type="reset" class="btn btn-danger mybtn"value="reset" onclick="refreshPage()"> Reset</button>
+				</form>
+			</div>
+			
+			</div>
+		</main-container>
+		<script src="./css/script.js"></script>
+-	</body>
 </html>
