@@ -11,19 +11,36 @@
 </head>
 
 <body>
-    <h1>Get Your Akan Name</h1>
-    <form>
-        <div class="container">
-            <div class="form-group">
-                <input type="date" placeholder="date"><br>
-                <input type="radio" id="Male" name="gender"><label for="male">Male</label>
-                <input type="radio" id="female" name="gender"><label for="female">female</label><br>
-                <input type="submit" name="submit">
+    <main-container>
+        <div class="container jumbotron myform">
+            <h1 class="form-head">
+                Enter your birthday and get the akan name
+            </h1>
+            <div class="displayme container">
+                <div class="alert-success alert myalert container id alert1">
+                    <p>
+                        <span id="span1"></span>
+                        <span id="span2"></span>
+                    </p>
+                </div>
             </div>
+            <div class="container jumbotron myform">
+                <form class="form-group" onsubmit="event.preventDefault()">
+                    <div class="form-group">
+                      <label for="month">Year of Birth</label>
+                      <input id="year" type="text" class="form-control" max=2020 min="1900" max-length="4" size="4" required/>
+
+                    </div>
+                </form>
+            </div>
+
         </div>
-    </form>
-    <script>
-    </script>
+        <form>
+
+        </form>
+    </main-container>
+
+    <script src="js/scripts.js"></script>
 </body>
 
 </html>
