@@ -15,6 +15,9 @@ BDD.
   <li>Bootstrap4<li>
   <li>GIT version control<li>
 </ul>
-Contact information.>
+<h4>Contact information.</h4>
+<p><strong> Email</strong>vickigen@gmail.com</p>
+<p>https://github.com/kigensky/Birthday-web-application-</p>
 
-License and Copyright information.
+<h5>License and Copyright information.<h5>
+https://github.com/Naereen/StrapDown.js/blob/master/LICENSE
