@@ -2,16 +2,21 @@
    -Birthday Web Application
 
 <h>Project description.<h>
-   -This is a web application that generatest the akan name using the day of the week someone was born.
+   This is a web application that generatest the akan name using the day of the week someone was born.
 
 <h>Author(s) information.<h>
+
    -Victor kigen
    -https://github.com/kigensky
   
 <h>Setup instructions - includes any scripts that need to be run if necessary.<h>
+
    1. git clone...https://github.com/kigensky/Birthday-web-application-.git
-   2. navigate to the folder and open the index.html file
-<h>BDD.<h>
+   2. navigate to the folder and open the index.html file<br>
+
+
+BDD.
+
    1.The app gives the user a form that they will input their birthday    date.
    2. The app will be able to show the gender where the the user chooses either male or female.
    3. The app should check if the date is valid.
