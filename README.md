@@ -1,7 +1,7 @@
-Project name.
-   -Birthday Web Application
+Project name-
+   Birthday Web Application
 
-Project description.
+Project description -
    This is a web application that generatest the akan name using the day of the week someone was born.
 
 Author(s) information.
@@ -25,9 +25,9 @@ BDD.
 
 Technologies used
 
-   -HTML5,Css
-   -Javascript
-   -Bootstrap4
+   1. HTML5,Css
+   2. Javascript
+   3. Bootstrap4
   
 
 Contact information.
